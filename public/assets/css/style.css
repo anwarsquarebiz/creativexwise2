@@ -1,0 +1,122 @@
+body {
+  /* background-color: #ffffff; */
+  /* background-image: radial-gradient(#1f2937 1px, transparent 1px); */
+  /* background-image: radial-gradient(#f53003 1px, transparent 1px); */
+  /* background-size: 20px 20px; */
+  /* animation: movePattern 20s linear infinite; */
+  /* overflow-x: hidden; */
+}
+
+
+.container-fluid {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;   /* px-4 */
+    padding-right: 1rem;  /* px-4 */
+  }
+
+  @media (min-width: 640px) { /* sm */
+    .container-fluid {
+      padding-left: 1.5rem;  /* px-6 */
+      padding-right: 1.5rem; /* px-6 */
+    }
+  }
+
+  @media (min-width: 1024px) { /* lg */
+    .container-fluid {
+      padding-left: 2rem;  /* px-8 */
+      padding-right: 2rem; /* px-8 */
+    }
+  }
+
+  @media (min-width: 1280px) { /* xl */
+    .container-fluid {
+      padding-left: 3rem;  /* px-12 */
+      padding-right: 3rem; /* px-12 */
+    }
+  }
+
+  @media (min-width: 1480px) {
+    .container-fluid {
+      padding-left: 5rem;
+      padding-right: 5rem;
+    }
+  }
+
+@keyframes movePattern {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 100px 100px;
+  }
+}
+
+.text-xxs{
+  font-size: 11px;
+}
+
+/* Tailwind utilities */
+.nav-link {
+  @apply hover:text-zinc-500 text-sm text-zinc-900 uppercase font-medium cursor-pointer;
+}
+.dropdown {
+  @apply absolute top-full mt-2 bg-white border border-zinc-200 shadow-lg flex flex-col w-[200px] p-2;
+}
+.dropdown a {
+  @apply flex justify-between items-center px-3 py-2 text-sm hover:bg-gray-100;
+}
+.mobile-link {
+  @apply text-lg text-zinc-900 uppercase text-left;
+}
+.mobile-sub {
+  @apply flex flex-col gap-4;
+}
+.back-btn {
+  @apply flex items-center gap-2 text-sm uppercase mb-4;
+}
+
+
+ .gradient-bg {
+        background: linear-gradient(
+          135deg,
+          #1f2937 0%,
+          #111827 50%,
+          #0f172a 100%
+        );
+      }
+      .hover-glow:hover {
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+      }
+      .nav-link {
+        position: relative;
+        transition: all 0.3s ease;
+      }
+      .nav-link::after {
+        content: "";
+        position: absolute;
+        bottom: -4px;
+        left: 50%;
+        width: 0;
+        height: 2px;
+        background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+        transition: all 0.3s ease;
+        transform: translateX(-50%);
+      }
+      .nav-link:hover::after {
+        width: 100%;
+      }
+      .logo-pulse {
+        animation: pulse 3s ease-in-out infinite;
+      }
+      @keyframes pulse {
+        0%,
+        100% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0.8;
+        }
+      }
