@@ -5,7 +5,7 @@
 @section('content')
 
 <!-- Dummy content to scroll -->
-<div id="main" class="h-fit w-full">
+<div id="main" class="h-fit w-full relative overflow-x-hidden">
     <section class="relative w-screen h-screen" id="about-hero">
         <!-- Background Image -->
         <div id="animated-bg-wrapper" class="absolute -z-20 w-screen h-[130vh] overflow-hidden">
@@ -50,7 +50,16 @@
         </div>
     </section>
 
+    <div class="w-full relative h-fit flex flex-col lg:gap-20">
+
     <div
+        class="absolute scale-x-[-1] opacity-30 z-0 w-full h-3/6 top-1/2 -translate-y-1/2 left-0"
+        style="background-image: url('/assets/img/pattern/pattern_3.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;"
+
+        >
+    </div>
+
+        <div
         class="w-full container-fluid flex flex-col lg:flex-row relative items-center gap-14 justify-center md:items-start py-[80px] md:py-[120px]">
         <div class="w-full flex flex-col md:flex-row lg:flex-col gap-5 md:gap-10">
             <div class="w-full md:w-1/2 reveal lg:w-full flex flex-col gap-1.5 md:gap-3 lg:gap-4 2xl:gap-5">
@@ -254,6 +263,7 @@
                 we produce and consume it.
             </p>
         </div>
+    </div>
     </div>
 
     <div

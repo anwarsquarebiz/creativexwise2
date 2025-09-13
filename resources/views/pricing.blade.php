@@ -3,10 +3,12 @@
 @section('title', 'Pricing')
 
 @section('content')
-<main class="main-root">
+<main class="main-root relative overflow-x-hidden">
     <!-- Hero Section -->
     <section class="relative w-screen h-[60vh] flex items-center justify-center bg-gradient-to-br from-gray-900 via-black to-gray-800">
-        <div class="text-center text-white z-10">
+        
+    
+    <div class="text-center text-white z-10">
             <h1 class="text-4xl md:text-6xl font-bold mb-6">Our Pricing</h1>
             <p class="text-xl md:text-2xl opacity-90">Choose the perfect plan for your content localization needs</p>
         </div>
@@ -15,7 +17,8 @@
 
     <!-- Currency Switch -->
     <section class="py-8 bg-gray-50">
-        <div class="container mx-auto px-4 text-center">
+        
+        <div class="container relative z-10 mx-auto px-4 text-center">
             <div class="inline-flex items-center bg-white rounded-full p-1 shadow-md border border-gray-200">
                 <span class="px-4 text-sm font-medium text-gray-600">USD</span>
                 <button id="currency-switch" class="relative inline-flex h-6 w-11 items-center rounded-full bg-gray-200 transition-colors focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2">
@@ -28,7 +31,9 @@
 
     <!-- Pricing Cards -->
     <section class="py-16 bg-white">
-        <div class="container mx-auto px-4">
+
+   
+        <div class="container relative z-10 mx-auto px-4">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 
                 <!-- Subtitling -->

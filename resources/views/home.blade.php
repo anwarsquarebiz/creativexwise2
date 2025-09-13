@@ -3,27 +3,46 @@
 @section('title', 'Home')
 
 @section('content')
-<div
-    class="w-full md:mt-10 h-[75vh] md:h-[80vh] lg:h-screen flex flex-col items-center justify-end md:justify-center text-center relative z-10">
-    <!-- Title -->
-    <h1
-        style="line-height: 130%;"
-        class="font-bold uppercase text-black text-3xl sm:text-4xl md:text-5xl lg:text-[5.69vw] w-[70%]">
-        {{ __('messages.hero_title') }}
-    </h1>
+<div class="relative w-full md:mt-10 h-[75vh] md:h-[80vh] lg:h-screen flex flex-col items-center justify-end md:justify-center text-center z-10 overflow-hidden">
 
-    <!-- Description -->
-    <div class="mt-6 mb-6 w-[70%] px-4">
-        <p
-            style="line-height: 150%;"
-            class="text-base sm:text-lg md:text-2xl lg:text-[36px] text-black">
-            {{ __('messages.hero_description') }}
-        </p>
+    <!-- Background Layer (flipped and transparent) -->
+    <div
+        class="absolute scale-x-[-1] opacity-30 z-0 w-full h-3/5 bottom-0 left-0"
+        style="background-image: url('/assets/img/pattern/pattern_3.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;"
+
+        >
+    </div>
+
+     <div
+        class="absolute inset-0 z-0"
+        style="
+            background: linear-gradient(to right, rgba(255,255,255,0) 60%, rgba(255,255,255,1) 100%);
+        ">
+    </div>
+
+    <!-- Content Layer (on top of background) -->
+    <div class="relative z-10 w-full flex flex-col items-center">
+        <!-- Title -->
+        <h1
+            style="line-height: 130%;"
+            class="font-bold uppercase text-black text-3xl sm:text-4xl md:text-5xl lg:text-[5.69vw] w-[70%]">
+            {{ __('messages.hero_title') }}
+        </h1>
+
+        <!-- Description -->
+        <div class="mt-6 mb-6 w-[70%] px-4">
+            <p
+                style="line-height: 150%;"
+                class="text-base sm:text-lg md:text-2xl lg:text-[36px] text-black">
+                {{ __('messages.hero_description') }}
+            </p>
+        </div>
     </div>
 </div>
 
+
 <div
-    class="relative w-full flex flex-col items-center justify-center pb-[80px] md:pb-[120px]">
+    class="relative w-full flex flex-col items-center justify-center pb-[80px] md:pb-[120px] z-20">
     <!-- Main Video -->
     <div
         class="container-fluid absolute left-1/2 -translate-x-1/2 flex items-center justify-center">
@@ -132,7 +151,16 @@
     </div>
 </div>
 
+<div class="w-full relative">
+
 <div
+        class="absolute scale-x-[-1] opacity-30 z-0 w-full inset-0 top-1/2 -translate-y-1/2 left-0"
+        style="background-image: url('/assets/img/pattern/pattern_4.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;"
+
+        >
+    </div>
+
+    <div
     class="container-fluid w-full reveal flex relative items-center justify-center py-[80px] md:py-[120px]">
     <div class="w-[80%] md:w-[65%] absolute z-30 aspect-video">
         <div class="w-full h-full">
@@ -213,6 +241,7 @@
             class="uppercase text-zinc-900 font-medium 2xl:text-lg hover:text-blue-700 text-xs md:text-sm p-0.5 underline"
             href="/why-us/Technology.html">Learn about our innovations</a>
     </div>
+</div>
 </div>
 
 <div

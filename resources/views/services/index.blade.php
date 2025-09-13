@@ -4,9 +4,16 @@
 
 @section('content')
 
-<div id="main" class="h-fit w-full">
+<div id="main" class="h-fit w-full relative overflow-x-hidden">
     <section class="relative w-screen h-screen" id="about-hero">
         <!-- Background Image -->
+
+        <div
+        class="absolute  opacity-30 z-0 w-full inset-0 "
+        style="background-image: url('/assets/img/pattern/pattern_5.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;"
+
+        >
+    </div>
 
         <div id="opacity-fixed"
             class="absolute top-0 left-1/2 -translate-x-1/2 h-screen container-fluid z-10 flex items-start md:items-center justify-center pt-[100px]">

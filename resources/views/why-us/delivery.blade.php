@@ -5,7 +5,7 @@
 @section('content')
 
 <!-- Dummy content to scroll -->
-<div id="main" class="h-fit w-full">
+<div id="main" class="h-fit w-full relative overflow-x-hidden">
     <section class="relative w-screen h-screen" id="about-hero">
         <!-- Background Image -->
         <div id="animated-bg-wrapper" class="absolute -z-20 w-screen h-[130vh] overflow-hidden">
@@ -199,6 +199,14 @@
 
     <div id="languages-section"
         class="w-full flex flex-col container-fluid md:flex-row gap-1 relative items-center md:items-start justify-center pb-[80px] md:pb-[120px]">
+        
+        <div
+        class="absolute scale-x-[-1] opacity-30 z-0 w-full inset-0"
+        style="background-image: url('/assets/img/pattern/pattern_2.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;"
+
+        >
+    </div>
+        
         <div id="languages-grid" class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 w-full md:px-10">
             <!-- Languages will be injected here -->
         </div>
