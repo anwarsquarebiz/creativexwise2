@@ -4,7 +4,7 @@
 
 @section('content')
 
-<main id="main_root" class="main-root">
+<main id="main_root" class="main-root relative overflow-x-hidden">
 
 <section class="relative w-screen h-screen" id="about-hero">
     <!-- Background Image -->
@@ -260,6 +260,12 @@
 </section>
 
 <section id="fourth-section" class="relative z-10 w-full flex justify-center">
+    <div
+        class="absolute scale-x-[-1] opacity-30 z-0 w-full h-4/5 top-0 left-0"
+        style="background-image: url('/assets/img/pattern/pattern_3.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;"
+
+        >
+    </div>
     <div class="container-fluid flex flex-col gap-6 py-[80px] md:py-[120px]">
         <div class="w-full flex flex-col gap-6 pb-6 text-zinc-900">
             <!-- Logo -->
@@ -301,6 +307,13 @@
                     COMPLETED
                 </h4>
             </div>
+
+            <div
+        class="absolute  opacity-30 z-0 w-full h-4/5 bottom-0 left-0 inset-0"
+        style="background-image: url('/assets/img/pattern/pattern_4.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;"
+
+        >
+    </div>s
 
             <!-- Locations -->
             <div class="flex-1 flex flex-col gap-2">

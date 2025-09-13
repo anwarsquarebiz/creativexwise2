@@ -4,10 +4,18 @@
 
 @section('content')
 <!-- Dummy content to scroll -->
-<div id="main" class="h-fit w-full">
+<div id="main" class="h-fit w-full relative overflow-x-hidden">
     <div
         class="w-full h-fit pt-20 md:pt-32 lg:pt-52 gap-10 md:gap-0 flex flex-col md:flex-row items-center md:items-start justify-end md:justify-center relative z-10 pb-[80px] md:pb-[120px]">
-        <div class="flex flex-col gap-10 w-full md-1/2 items-center justify-end px-3 md:px-0 md:pl-8 lg:pl-12 xl:pl-14">
+        
+         <div
+        class="absolute  opacity-30 z-0 w-full h-4/6 bottom-0 left-0"
+        style="background-image: url('/assets/img/pattern/pattern_3.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;"
+
+        >
+    </div>
+        
+        <div class="flex flex-col gap-10 w-full relative z-10 md-1/2 items-center justify-end px-3 md:px-0 md:pl-8 lg:pl-12 xl:pl-14">
             <div class="w-full flex flex-col gap-5 md:gap-3 lg:gap-4 2xl:gap-5">
                 <h4 class="text-2xl md:text-5xl lg:text-6xl xl:text-8xl leading-[130%] font-extrabold text-zinc-900">
                     Distribution & Media Services
@@ -30,7 +38,7 @@
             </p>
         </div>
 
-        <div class="w-full pl-10 md:pl-5">
+        <div class="w-full pl-10 md:pl-5 relative z-10">
             <div class="w-full aspect-[4/3] overflow-hidden">
                 <img src="/assets/img/page-images/services/Shadow-and-Bone-Crop.avif" alt="img"
                     class="w-full h-full object-cover" />
@@ -169,6 +177,14 @@
 
     <div
         class="container-fluid w-full h-fit gap-14 flex flex-col-reverse items-center md:items-start justify-end md:justify-center relative z-10 py-[80px] md:py-[120px]">
+        
+        <div
+        class="absolute  opacity-30 z-0 w-full inset-0"
+        style="background-image: url('/assets/img/pattern/pattern_5.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;"
+
+        >
+    </div>
+        
         <div class="w-full aspect-[3/1] reveal overflow-hidden">
             <img src="/assets/img/page-images/services/services_distribution_3_01.avif" alt="img"
                 class="w-full h-full object-cover" />

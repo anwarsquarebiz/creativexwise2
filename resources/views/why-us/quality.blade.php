@@ -5,7 +5,7 @@
 @section('content')
 
 <!-- Dummy content to scroll -->
-<div id="main" class="h-fit w-full">
+<div id="main" class="h-fit w-full overflow-x-hidden">
     <section class="relative w-screen h-screen" id="about-hero">
         <!-- Background Image -->
         <div id="animated-bg-wrapper" class="absolute -z-20 w-screen h-[130vh] overflow-hidden">
@@ -106,6 +106,21 @@
 
     <div
         class="w-full flex flex-col md:flex-row gap-10 relative items-center lg:items-start justify-center py-[80px] md:py-[120px]">
+       
+        <div
+        class="absolute scale-x-[-1] opacity-30 z-0 w-full h-3/5 top-0 left-0"
+        style="background-image: url('/assets/img/pattern/pattern_2.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;"
+
+        >
+    </div>
+
+    <div
+        class="absolute  opacity-30 z-0 w-full h-3/6 bottom-0 left-0"
+        style="background-image: url('/assets/img/pattern/pattern_3.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;"
+
+        >
+    </div>
+       
         <div class="w-full flex justify-between">
             <div class="w-[40%] flex flex-col h-fit">
                 <div class="w-full reveal aspect-[2/3]">

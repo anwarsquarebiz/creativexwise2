@@ -4,8 +4,16 @@
 
 @section('content')
 
-<div id="main" class="h-fit w-full">
+<div id="main" class="h-fit w-full relative overflow-x-hidden">
   <div class="container-fluid w-full h-screen text-center relative z-10">
+
+  <div
+        class="absolute  opacity-30 z-0 w-full inset-0"
+        style="background-image: url('/assets/img/pattern/pattern_5.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;"
+
+        >
+    </div>
+
     <div id="opacity-fixed" class="absolute h-screen w-full flex items-center">
       <h4 class="text-4xl md:text-6xl lg:text-7xl 2xl:text-9xl text-start text-zinc-900 font-extrabold">
         Location & Contact
