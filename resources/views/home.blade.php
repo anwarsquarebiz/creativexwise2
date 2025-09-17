@@ -3,22 +3,19 @@
 @section('title', 'Home')
 
 @section('content')
-<div class="relative w-full md:mt-10 h-[75vh] md:h-[80vh] lg:h-screen flex flex-col items-center justify-end md:justify-center text-center z-10 overflow-hidden">
+<div class="w-full h-fit relative">
 
-    <!-- Background Layer (flipped and transparent) -->
-    <div
-        class="absolute scale-x-[-1] opacity-30 z-0 w-full h-3/5 bottom-0 left-0"
-        style="background-image: url('/assets/img/pattern/pattern_3.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;"
+
+<div
+        class="absolute opacity-40 z-10 w-full h-full left-0 -top-[10vw] filter invert"
+        style="background-image: url('/assets/img/pattern/pattern_1.png'); background-size: 140%; background-position: center; background-repeat: no-repeat;"
 
         >
     </div>
 
-     <div
-        class="absolute inset-0 z-0"
-        style="
-            background: linear-gradient(to right, rgba(255,255,255,0) 60%, rgba(255,255,255,1) 100%);
-        ">
-    </div>
+<div class="relative w-full md:mt-10 h-[75vh] md:h-[80vh] lg:h-screen flex flex-col items-center justify-end md:justify-center text-center z-10 overflow-hidden">
+
+    <!-- Background Layer (flipped and transparent) -->
 
     <!-- Content Layer (on top of background) -->
     <div class="relative z-10 w-full flex flex-col items-center">
@@ -151,17 +148,19 @@
     </div>
 </div>
 
+</div>
+
 <div class="w-full relative">
 
 <div
-        class="absolute scale-x-[-1] opacity-30 z-0 w-full inset-0 top-1/2 -translate-y-1/2 left-0"
-        style="background-image: url('/assets/img/pattern/pattern_4.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;"
+        class="absolute opacity-40 z-0 w-full h-full -top-1/4 filter invert"
+        style="background-image: url('/assets/img/pattern/pattern_2.png'); background-size: 140%; background-position: center; background-repeat: no-repeat;"
 
         >
-    </div>
+    </div>     
 
     <div
-    class="container-fluid w-full reveal flex relative items-center justify-center py-[80px] md:py-[120px]">
+    class="container-fluid w-full reveal flex relative items-center justify-center py-[100px] md:py-[150px] lg:py-[200px]">
     <div class="w-[80%] md:w-[65%] absolute z-30 aspect-video">
         <div class="w-full h-full">
             <video
@@ -193,6 +192,7 @@
     </div>
 </div>
 
+</div>
 <div
     class="w-full flex flex-col md:flex-row-reverse relative items-center gap-10 justify-center md:items-start py-[80px] md:py-[120px]">
     <div class="w-full pl-8 md:pl-0">
@@ -241,7 +241,6 @@
             class="uppercase text-zinc-900 font-medium 2xl:text-lg hover:text-blue-700 text-xs md:text-sm p-0.5 underline"
             href="/why-us/Technology.html">Learn about our innovations</a>
     </div>
-</div>
 </div>
 
 <div

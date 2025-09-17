@@ -6,145 +6,160 @@
 
 <!-- Dummy content to scroll -->
 <div id="main" class="h-fit w-full relative overflow-x-hidden">
-    <div
-        class="w-full h-fit pt-20 md:pt-32 lg:pt-52 gap-10 md:gap-0 flex flex-col md:flex-row items-center md:items-start justify-end md:justify-center relative z-10 pb-[80px] md:pb-[120px]">
-        
+
+    <div class="w-full relative">
+    
         <div
-        class="absolute  opacity-30 z-0 w-full h-4/6 bottom-0 left-0"
-        style="background-image: url('/assets/img/pattern/pattern_3.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;"
+        class="absolute opacity-40 z-0 w-full inset-0 filter invert"
+        style="background-image: url('/assets/img/pattern/pattern_2.png'); background-size: 150%; background-position: center; background-repeat: no-repeat;"
 
         >
     </div>
+    
+        <div
+            class="w-full h-fit pt-20 md:pt-32 lg:pt-52 gap-10 md:gap-0 flex flex-col md:flex-row items-center md:items-start justify-end md:justify-center relative z-10 pb-[80px] md:pb-[120px]">
         
-        <div class="flex flex-col gap-10 w-full relative z-10 md-1/2 items-center justify-end px-3 md:px-0 md:pl-8 lg:pl-12 xl:pl-14">
-            <div class="w-full flex flex-col gap-5 md:gap-3 lg:gap-4 2xl:gap-5">
-                <h4 class="text-2xl md:text-5xl lg:text-6xl xl:text-8xl leading-[130%] font-extrabold text-zinc-900">
-                    Creative Post Production
-                </h4>
-                <div class="w-8 md:w-10 h-[3px] rounded bg-zinc-900"></div>
+            
+            <div class="flex flex-col gap-10 w-full relative z-10 md-1/2 items-center justify-end px-3 md:px-0 md:pl-8 lg:pl-12 xl:pl-14">
+                <div class="w-full flex flex-col gap-5 md:gap-3 lg:gap-4 2xl:gap-5">
+                    <h4 class="text-2xl md:text-5xl lg:text-6xl xl:text-8xl leading-[130%] font-extrabold text-zinc-900">
+                        Creative Post Production
+                    </h4>
+                    <div class="w-8 md:w-10 h-[3px] rounded bg-zinc-900"></div>
+                </div>
+    
+                <p
+                    class="leading-[160%] text-xxs md:text-base lg:text-base xl:text-lg 2xl:text-xl font-medium w-3/4 text-zinc-900">
+                    Our post-production services are driven by a talented roster of top
+                    engineers and creatives who constantly refine workflows and are
+                    trusted by leading media and entertainment companies worldwide.
+                    {{ config('app.name') }}’s cutting-edge facilities, customized editing suites,
+                    and highly skilled engineers operate with a follow-the-sun approach,
+                    available 24/7 to ensure a smooth and efficient post-production
+                    process.
+                </p>
             </div>
-
-            <p
-                class="leading-[160%] text-xxs md:text-base lg:text-base xl:text-lg 2xl:text-xl font-medium w-3/4 text-zinc-900">
-                Our post-production services are driven by a talented roster of top
-                engineers and creatives who constantly refine workflows and are
-                trusted by leading media and entertainment companies worldwide.
-                {{ config('app.name') }}’s cutting-edge facilities, customized editing suites,
-                and highly skilled engineers operate with a follow-the-sun approach,
-                available 24/7 to ensure a smooth and efficient post-production
-                process.
-            </p>
+    
+            <div class="w-full pl-10 md:pl-5 relative z-10">
+                <div class="w-full aspect-[4/3] overflow-hidden">
+                    <img src="/assets/img/page-images/services/Wednesday-Crop.avif" alt="img"
+                        class="w-full h-full object-cover" />
+                </div>
+            </div>
         </div>
-
-        <div class="w-full pl-10 md:pl-5 relative z-10">
-            <div class="w-full aspect-[4/3] overflow-hidden">
-                <img src="/assets/img/page-images/services/Wednesday-Crop.avif" alt="img"
-                    class="w-full h-full object-cover" />
+    
+        <div
+            class="container-fluid w-full h-fit gap-14 flex flex-col-reverse items-center md:items-start justify-end md:justify-center relative z-10 py-[80px] md:py-[120px]">
+            <div class="w-full grid grid-cols-1 md:grid-cols-3 gap-16 md:gap-8 lg:gap-10 p-6">
+                <div class="flex reveal flex-col gap-1">
+                    <h4 class="text-xs md:text-sm lg:text-lg xl:text-sm font-bold text-zinc-900 uppercase">
+                        Digital Intermediate Finishing
+                    </h4>
+                    <p class="text-zinc-700 mt-2 text-xxs md:text-xs lg:text-base xl:text-sm leading-[160%] font-medium">
+                        Our digital intermediate finishing process refines color,
+                        contrast, and visual fidelity to achieve the director’s intent. We
+                        provide end-to-end solutions for color correction, grading, and
+                        final adjustments, ensuring cinematic quality across all formats.
+                    </p>
+                </div>
+    
+                <div class="flex reveal flex-col gap-1">
+                    <h4 class="text-xs md:text-sm lg:text-lg xl:text-sm font-bold text-zinc-900 uppercase">
+                        Advanced Color Grading
+                    </h4>
+                    <p class="text-zinc-700 mt-2 text-xxs md:text-xs lg:text-base xl:text-sm leading-[160%] font-medium">
+                        Using state-of-the-art tools, our colorists enhance mood, tone,
+                        and visual storytelling. Every project receives meticulous
+                        attention, whether for theatrical release, streaming, or episodic
+                        content, ensuring a polished and consistent look.
+                    </p>
+                </div>
+    
+                <div class="flex reveal flex-col gap-1">
+                    <h4 class="text-xs md:text-sm lg:text-lg xl:text-sm font-bold text-zinc-900 uppercase">
+                        Foley & Sound Effects
+                    </h4>
+                    <p class="text-zinc-700 mt-2 text-xxs md:text-xs lg:text-base xl:text-sm leading-[160%] font-medium">
+                        {{ config('app.name') }}’s foley and sound effects teams recreate authentic
+                        audio environments, from footsteps to ambient sounds, to enhance
+                        realism and immersion. Coupled with precise synchronization, our
+                        audio effects make every scene feel alive and captivating.
+                    </p>
+                </div>
+            </div>
+    
+            <div class="w-full grid grid-cols-1 md:grid-cols-3 gap-16 md:gap-8 lg:gap-10 p-6">
+                <!-- Card 1 -->
+                <div class="flex reveal flex-col gap-1">
+                    <h4 class="text-xs md:text-sm lg:text-lg xl:text-sm font-bold text-zinc-900 uppercase">
+                        Editorial & Sound Mixing
+                    </h4>
+                    <p class="text-zinc-700 mt-2 text-xxs md:text-xs lg:text-base xl:text-sm leading-[160%] font-medium">
+                        {{ config('app.name') }}’s editorial and sound mixing services craft every
+                        scene with precision, enhancing storytelling through seamless
+                        audio integration and meticulous editing. Our team ensures every
+                        cut, transition, and mix aligns perfectly with the creative
+                        vision, bringing content to life for audiences worldwide.
+                    </p>
+                </div>
+    
+                <!-- Card 2 -->
+                <div class="flex reveal flex-col gap-1">
+                    <h4 class="text-xs md:text-sm lg:text-lg xl:text-sm font-bold text-zinc-900 uppercase">
+                        VFX & Motion Enhancements
+                    </h4>
+                    <p class="text-zinc-700 mt-2 text-xxs md:text-xs lg:text-base xl:text-sm leading-[160%] font-medium">
+                        Our visual effects and motion enhancement teams transform creative
+                        concepts into immersive experiences. From subtle enhancements to
+                        complex animations, we elevate storytelling with graphics,
+                        compositing, and dynamic visual effects tailored to each project.
+                    </p>
+                </div>
+    
+                <!-- Card 3 -->
+                <div class="flex reveal flex-col gap-1">
+                    <h4 class="text-xs md:text-sm lg:text-lg xl:text-sm font-bold text-zinc-900 uppercase">
+                        Final Mastering
+                    </h4>
+                    <p class="text-zinc-700 mt-2 text-xxs md:text-xs lg:text-base xl:text-sm leading-[160%] font-medium">
+                        {{ config('app.name') }}’s final mastering services guarantee flawless
+                        delivery of both audio and video content. We apply rigorous
+                        quality checks, optimize formats for all platforms, and ensure
+                        that every asset meets industry-leading standards.
+                    </p>
+                </div>
+            </div>
+    
+            <div class="w-full flex flex-col md:flex-row gap-1 md:mb-14 relative items-center md:items-start">
+                <div class="w-full md:w-1/2 flex flex-col gap-3 lg:gap-5">
+                    <p class="text-zinc-700 reveal text-xs md:text-base lg:text-xl xl:text-lg font-medium uppercase">
+                        Creative Post Production
+                    </p>
+    
+                    <div class="w-full flex flex-col gap-5 md:gap-3 lg:gap-4 2xl:gap-5">
+                        <h4 class="text-zinc-900 reveal text-2xl md:text-4xl lg:text-5xl xl:text-7xl font-bold">
+                            Our Services
+                        </h4>
+                        <div class="w-8 md:w-10 h-[3px] rounded bg-zinc-900"></div>
+                    </div>
+                </div>
+    
+                <p class="text-xxs md:text-base reveal lg:text-2xl xl:text-lg font-medium w-full md:w-1/2 text-zinc-700">
+                    Cutting-edge visuals and sound for live-action films, animated
+                    features, episodic television, interactive games, and cartoons.
+                </p>
             </div>
         </div>
     </div>
 
-    <div
-        class="container-fluid w-full h-fit gap-14 flex flex-col-reverse items-center md:items-start justify-end md:justify-center relative z-10 py-[80px] md:py-[120px]">
-        <div class="w-full grid grid-cols-1 md:grid-cols-3 gap-16 md:gap-8 lg:gap-10 p-6">
-            <div class="flex reveal flex-col gap-1">
-                <h4 class="text-xs md:text-sm lg:text-lg xl:text-sm font-bold text-zinc-900 uppercase">
-                    Digital Intermediate Finishing
-                </h4>
-                <p class="text-zinc-700 mt-2 text-xxs md:text-xs lg:text-base xl:text-sm leading-[160%] font-medium">
-                    Our digital intermediate finishing process refines color,
-                    contrast, and visual fidelity to achieve the director’s intent. We
-                    provide end-to-end solutions for color correction, grading, and
-                    final adjustments, ensuring cinematic quality across all formats.
-                </p>
-            </div>
 
-            <div class="flex reveal flex-col gap-1">
-                <h4 class="text-xs md:text-sm lg:text-lg xl:text-sm font-bold text-zinc-900 uppercase">
-                    Advanced Color Grading
-                </h4>
-                <p class="text-zinc-700 mt-2 text-xxs md:text-xs lg:text-base xl:text-sm leading-[160%] font-medium">
-                    Using state-of-the-art tools, our colorists enhance mood, tone,
-                    and visual storytelling. Every project receives meticulous
-                    attention, whether for theatrical release, streaming, or episodic
-                    content, ensuring a polished and consistent look.
-                </p>
-            </div>
+    <div class="w-full relative">
 
-            <div class="flex reveal flex-col gap-1">
-                <h4 class="text-xs md:text-sm lg:text-lg xl:text-sm font-bold text-zinc-900 uppercase">
-                    Foley & Sound Effects
-                </h4>
-                <p class="text-zinc-700 mt-2 text-xxs md:text-xs lg:text-base xl:text-sm leading-[160%] font-medium">
-                    {{ config('app.name') }}’s foley and sound effects teams recreate authentic
-                    audio environments, from footsteps to ambient sounds, to enhance
-                    realism and immersion. Coupled with precise synchronization, our
-                    audio effects make every scene feel alive and captivating.
-                </p>
-            </div>
-        </div>
+     <div
+        class="absolute opacity-40 z-0 w-full inset-0 filter invert"
+        style="background-image: url('/assets/img/pattern/pattern_1.png'); background-size: 150%; background-position: center; background-repeat: no-repeat;"
 
-        <div class="w-full grid grid-cols-1 md:grid-cols-3 gap-16 md:gap-8 lg:gap-10 p-6">
-            <!-- Card 1 -->
-            <div class="flex reveal flex-col gap-1">
-                <h4 class="text-xs md:text-sm lg:text-lg xl:text-sm font-bold text-zinc-900 uppercase">
-                    Editorial & Sound Mixing
-                </h4>
-                <p class="text-zinc-700 mt-2 text-xxs md:text-xs lg:text-base xl:text-sm leading-[160%] font-medium">
-                    {{ config('app.name') }}’s editorial and sound mixing services craft every
-                    scene with precision, enhancing storytelling through seamless
-                    audio integration and meticulous editing. Our team ensures every
-                    cut, transition, and mix aligns perfectly with the creative
-                    vision, bringing content to life for audiences worldwide.
-                </p>
-            </div>
-
-            <!-- Card 2 -->
-            <div class="flex reveal flex-col gap-1">
-                <h4 class="text-xs md:text-sm lg:text-lg xl:text-sm font-bold text-zinc-900 uppercase">
-                    VFX & Motion Enhancements
-                </h4>
-                <p class="text-zinc-700 mt-2 text-xxs md:text-xs lg:text-base xl:text-sm leading-[160%] font-medium">
-                    Our visual effects and motion enhancement teams transform creative
-                    concepts into immersive experiences. From subtle enhancements to
-                    complex animations, we elevate storytelling with graphics,
-                    compositing, and dynamic visual effects tailored to each project.
-                </p>
-            </div>
-
-            <!-- Card 3 -->
-            <div class="flex reveal flex-col gap-1">
-                <h4 class="text-xs md:text-sm lg:text-lg xl:text-sm font-bold text-zinc-900 uppercase">
-                    Final Mastering
-                </h4>
-                <p class="text-zinc-700 mt-2 text-xxs md:text-xs lg:text-base xl:text-sm leading-[160%] font-medium">
-                    {{ config('app.name') }}’s final mastering services guarantee flawless
-                    delivery of both audio and video content. We apply rigorous
-                    quality checks, optimize formats for all platforms, and ensure
-                    that every asset meets industry-leading standards.
-                </p>
-            </div>
-        </div>
-
-        <div class="w-full flex flex-col md:flex-row gap-1 md:mb-14 relative items-center md:items-start">
-            <div class="w-full md:w-1/2 flex flex-col gap-3 lg:gap-5">
-                <p class="text-zinc-700 reveal text-xs md:text-base lg:text-xl xl:text-lg font-medium uppercase">
-                    Creative Post Production
-                </p>
-
-                <div class="w-full flex flex-col gap-5 md:gap-3 lg:gap-4 2xl:gap-5">
-                    <h4 class="text-zinc-900 reveal text-2xl md:text-4xl lg:text-5xl xl:text-7xl font-bold">
-                        Our Services
-                    </h4>
-                    <div class="w-8 md:w-10 h-[3px] rounded bg-zinc-900"></div>
-                </div>
-            </div>
-
-            <p class="text-xxs md:text-base reveal lg:text-2xl xl:text-lg font-medium w-full md:w-1/2 text-zinc-700">
-                Cutting-edge visuals and sound for live-action films, animated
-                features, episodic television, interactive games, and cartoons.
-            </p>
-        </div>
+        >
     </div>
 
     <div
@@ -195,12 +210,7 @@
     <div
         class="container-fluid w-full h-fit gap-14 flex flex-col-reverse items-center md:items-start justify-end md:justify-center relative z-10 py-[80px] md:py-[120px]">
         
-        <div
-        class="absolute  opacity-30 z-0 w-full inset-0"
-        style="background-image: url('/assets/img/pattern/pattern_5.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;"
-
-        >
-    </div>
+       
         
         <div class="w-full aspect-[3/1] reveal overflow-hidden">
             <img src="/assets/img/page-images/services/services_creative_3_01.avif" alt="img"
@@ -226,6 +236,9 @@
             </p>
         </div>
     </div>
+    </div>
+
+
 
 </div>
 
