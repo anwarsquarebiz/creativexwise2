@@ -203,7 +203,7 @@
               <input type="checkbox" name="consent" class="mt-1" />
               <span>
                 I consent to the given information being used and stored by
-                Iyuno to contact me about future opportunities.
+                {{ config('app.name') }} to contact me about future opportunities.
               </span>
             </label>
           </div>

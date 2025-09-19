@@ -21,3 +21,4 @@ class PoliciesController extends Controller
         return view('policies.refund');
     }
 }
+
