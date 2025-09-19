@@ -200,9 +200,9 @@
     <div id="languages-section"
         class="w-full flex flex-col container-fluid md:flex-row gap-1 relative items-center md:items-start justify-center pb-[80px] md:pb-[120px]">
         
-        <div
-        class="absolute scale-x-[-1] opacity-30 z-0 w-full inset-0"
-        style="background-image: url('/assets/img/pattern/pattern_2.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;"
+         <div
+        class="absolute opacity-40 z-0 w-full inset-0 filter invert"
+        style="background-image: url('/assets/img/pattern/pattern_5.png'); background-size: 140%; background-position: center; background-repeat: no-repeat;"
 
         >
     </div>

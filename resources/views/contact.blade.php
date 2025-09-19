@@ -7,9 +7,9 @@
 <div id="main" class="h-fit w-full relative overflow-x-hidden">
   <div class="container-fluid w-full h-screen text-center relative z-10">
 
-  <div
-        class="absolute  opacity-30 z-0 w-full inset-0"
-        style="background-image: url('/assets/img/pattern/pattern_5.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;"
+   <div
+        class="absolute opacity-40 z-0 w-full inset-0 filter invert"
+        style="background-image: url('/assets/img/pattern/pattern_10.png'); background-size: cover; background-position: center; background-repeat: no-repeat;"
 
         >
     </div>

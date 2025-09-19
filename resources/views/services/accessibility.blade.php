@@ -5,15 +5,19 @@
 @section('content')
 <!-- Dummy content to scroll -->
 <div id="main" class="h-fit w-full relative overflow-x-hidden">
+
+    <div class="w-full relative">
+
     <div
-        class="w-full h-fit pt-20 md:pt-32 lg:pt-52 gap-10 md:gap-0 flex flex-col md:flex-row items-center md:items-start justify-end md:justify-center relative z-10 pb-[80px] md:pb-[120px]">
-       
-        <div
-        class="absolute  opacity-30 z-0 w-full h-4/6 bottom-0 left-0"
-        style="background-image: url('/assets/img/pattern/pattern_3.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;"
+        class="absolute opacity-40 z-0 w-full inset-0 filter invert"
+        style="background-image: url('/assets/img/pattern/pattern_2.png'); background-size: 150%; background-position: center; background-repeat: no-repeat;"
 
         >
     </div>
+
+    <div
+        class="w-full h-fit pt-20 md:pt-32 lg:pt-52 gap-10 md:gap-0 flex flex-col md:flex-row items-center md:items-start justify-end md:justify-center relative z-10 pb-[80px] md:pb-[120px]">
+       
        
         <div class="flex flex-col gap-10 w-full md-1/2 items-center justify-end relative z-10 px-3 md:px-0 md:pl-8 lg:pl-12 xl:pl-14">
             <div class="w-full flex flex-col gap-5 md:gap-3 lg:gap-4 2xl:gap-5">
@@ -119,8 +123,20 @@
         </div>
     </div>
 
+    </div>
+
+    
+
     <div
         class="w-full flex flex-col container-fluid gap-10 relative items-center lg:items-start justify-center py-[80px] md:py-[120px]">
+        
+        <div
+        class="absolute opacity-40 z-0 w-full inset-0 filter invert -top-1/2"
+        style="background-image: url('/assets/img/pattern/pattern_1.png'); background-size: 150%; background-position: center; background-repeat: no-repeat;"
+
+        >
+    </div>
+        
         <div class="w-full flex flex-col md:flex-row gap-1 relative items-center md:items-start">
             <div class="w-full md:w-[70%] flex flex-col gap-3 lg:gap-5">
                 <p class="text-zinc-700 reveal text-xs md:text-base lg:text-xl xl:text-lg font-medium uppercase">

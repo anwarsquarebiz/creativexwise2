@@ -261,8 +261,8 @@
 
 <section id="fourth-section" class="relative z-10 w-full flex justify-center">
     <div
-        class="absolute scale-x-[-1] opacity-30 z-0 w-full h-4/5 top-0 left-0"
-        style="background-image: url('/assets/img/pattern/pattern_3.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;"
+        class="absolute opacity-40 z-0 w-full inset-0 filter invert"
+        style="background-image: url('/assets/img/pattern/pattern_9.png'); background-size: 150%; background-position: center; background-repeat: no-repeat;"
 
         >
     </div>
@@ -308,12 +308,12 @@
                 </h4>
             </div>
 
-            <div
-        class="absolute  opacity-30 z-0 w-full h-4/5 bottom-0 left-0 inset-0"
-        style="background-image: url('/assets/img/pattern/pattern_4.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;"
+             <div
+        class="absolute opacity-40 z-0 w-full inset-0 filter invert"
+        style="background-image: url('/assets/img/pattern/pattern_2.png'); background-size: 150%; background-position: center; background-repeat: no-repeat;"
 
         >
-    </div>s
+    </div>
 
             <!-- Locations -->
             <div class="flex-1 flex flex-col gap-2">

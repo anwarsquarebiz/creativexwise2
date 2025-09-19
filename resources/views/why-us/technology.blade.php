@@ -52,9 +52,9 @@
 
     <div class="w-full relative h-fit flex flex-col lg:gap-20">
 
-    <div
-        class="absolute scale-x-[-1] opacity-30 z-0 w-full h-3/6 top-1/2 -translate-y-1/2 left-0"
-        style="background-image: url('/assets/img/pattern/pattern_3.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;"
+     <div
+        class="absolute opacity-40 z-0 w-full inset-0 filter invert"
+        style="background-image: url('/assets/img/pattern/pattern_6.png'); background-size: 150%; background-position: center; background-repeat: no-repeat;"
 
         >
     </div>
@@ -69,7 +69,7 @@
                 <div class="w-8 md:w-10 h-[3px] rounded bg-zinc-900"></div>
             </div>
 
-            <p class="px-4 md:w-1/2 reveal lg:w-full text-xs md:text-base font-medium text-zinc-700 text-lg 2xl:px-12">
+            <p class="px-4 md:w-1/2 reveal lg:w-full text-xs md:text-base font-medium text-zinc-700 2xl:px-12">
                 We’re entering the next chapter of transformation in global media
                 production. Our core goal is to accelerate the adoption of
                 technology and cloud-based platforms within our daily workflows. We
@@ -266,7 +266,11 @@
     </div>
     </div>
 
-    <div
+    <div class="w-full relative">
+
+     
+
+        <div
         class="container-fluid w-full h-fit gap-14 flex flex-col-reverse items-center md:items-start justify-end md:justify-center relative z-10 pb-[80px] md:pb-[120px]">
         <div class="w-full grid grid-cols-1 md:grid-cols-3 gap-16 md:gap-8 lg:gap-10 reveal p-6">
             <!-- Card 1 -->
@@ -334,7 +338,7 @@
             </p>
         </div>
 
-        <div class="w-full bg-red-500 aspect-[3/1] reveal overflow-hidden">
+        <div class="w-full aspect-[3/1] reveal overflow-hidden">
             <img src="/assets/img/page-images/why-us/why_us_technology_3_01-2.avif" alt="img"
                 class="w-full h-full object-cover" />
         </div>
@@ -342,6 +346,14 @@
 
     <div
         class="container-fluid w-full h-fit gap-14 flex flex-col items-center md:items-start justify-end md:justify-center relative z-10 pb-[80px] md:pb-[120px]">
+        
+        <div
+        class="absolute opacity-40 z-0 w-full inset-0 filter invert"
+        style="background-image: url('/assets/img/pattern/pattern_7.png'); background-size: 150%; background-position: center; background-repeat: no-repeat;"
+
+        >
+    </div>
+        
         <div class="w-full flex flex-col gap-1">
             <p class="text-zinc-700 reveal font-bold text-xs md:text-base">
                 NMT Features
@@ -400,6 +412,7 @@
                 </p>
             </div>
         </div>
+    </div>
     </div>
 
 </div>

@@ -108,18 +108,12 @@
         class="w-full flex flex-col md:flex-row gap-10 relative items-center lg:items-start justify-center py-[80px] md:py-[120px]">
        
         <div
-        class="absolute scale-x-[-1] opacity-30 z-0 w-full h-3/5 top-0 left-0"
-        style="background-image: url('/assets/img/pattern/pattern_2.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;"
+        class="absolute opacity-40 z-0 w-full inset-0 filter invert"
+        style="background-image: url('/assets/img/pattern/pattern_3.png'); background-size: 150%; background-position: center; background-repeat: no-repeat;"
 
         >
     </div>
 
-    <div
-        class="absolute  opacity-30 z-0 w-full h-3/6 bottom-0 left-0"
-        style="background-image: url('/assets/img/pattern/pattern_3.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;"
-
-        >
-    </div>
        
         <div class="w-full flex justify-between">
             <div class="w-[40%] flex flex-col h-fit">
@@ -159,6 +153,14 @@
 
     <div
         class="w-full container-fluid flex flex-col lg:flex-row relative items-center gap-14 justify-center md:items-start py-[80px] md:py-[120px]">
+        
+         <div
+        class="absolute opacity-40 z-0 w-full inset-0 filter invert"
+        style="background-image: url('/assets/img/pattern/pattern_4.png'); background-size: 150%; background-position: center; background-repeat: no-repeat;"
+
+        >
+    </div>
+        
         <div class="w-full flex flex-col md:flex-row lg:flex-col gap-5 md:gap-10">
             <div class="w-full md:w-1/2 reveal lg:w-full flex flex-col gap-1.5 md:gap-3 lg:gap-4 2xl:gap-5">
                 <h4 class="text-2xl md:text-3xl 2xl:text-6xl font-extrabold text-zinc-900">
@@ -167,7 +169,7 @@
                 <div class="w-8 md:w-10 h-[3px] rounded bg-zinc-900"></div>
             </div>
 
-            <p class="px-4 md:w-1/2 reveal lg:w-full text-xs md:text-base font-medium text-zinc-700 text-lg 2xl:px-12">
+            <p class="px-4 md:w-1/2 reveal lg:w-full text-xs md:text-base font-medium text-zinc-700 2xl:px-12">
                 Comprehensive post-production and music production suite delivering
                 a full array of world-class services for streaming, episodic series,
                 films, shorts, bonus clips, and trailers. Our end-to-end solutions

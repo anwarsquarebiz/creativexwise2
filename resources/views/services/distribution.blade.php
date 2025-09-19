@@ -5,15 +5,20 @@
 @section('content')
 <!-- Dummy content to scroll -->
 <div id="main" class="h-fit w-full relative overflow-x-hidden">
+
+<div class="w-full relative">
+
     <div
-        class="w-full h-fit pt-20 md:pt-32 lg:pt-52 gap-10 md:gap-0 flex flex-col md:flex-row items-center md:items-start justify-end md:justify-center relative z-10 pb-[80px] md:pb-[120px]">
-        
-         <div
-        class="absolute  opacity-30 z-0 w-full h-4/6 bottom-0 left-0"
-        style="background-image: url('/assets/img/pattern/pattern_3.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;"
+        class="absolute opacity-40 z-0 w-full inset-0 filter invert"
+        style="background-image: url('/assets/img/pattern/pattern_2.png'); background-size: 150%; background-position: center; background-repeat: no-repeat;"
 
         >
     </div>
+
+    <div
+        class="w-full h-fit pt-20 md:pt-32 lg:pt-52 gap-10 md:gap-0 flex flex-col md:flex-row items-center md:items-start justify-end md:justify-center relative z-10 pb-[80px] md:pb-[120px]">
+        
+         
         
         <div class="flex flex-col gap-10 w-full relative z-10 md-1/2 items-center justify-end px-3 md:px-0 md:pl-8 lg:pl-12 xl:pl-14">
             <div class="w-full flex flex-col gap-5 md:gap-3 lg:gap-4 2xl:gap-5">
@@ -22,7 +27,7 @@
                 </h4>
                 <div class="w-8 md:w-10 h-[3px] rounded bg-zinc-900"></div>
             </div>
-
+    
             <p
                 class="leading-[160%] text-xxs md:text-base lg:text-base xl:text-lg 2xl:text-xl font-medium w-3/4 text-zinc-900">
                 Deliver your content globally through {{ config('app.name') }}’s extensive
@@ -37,7 +42,7 @@
                 worldwide.
             </p>
         </div>
-
+    
         <div class="w-full pl-10 md:pl-5 relative z-10">
             <div class="w-full aspect-[4/3] overflow-hidden">
                 <img src="/assets/img/page-images/services/Shadow-and-Bone-Crop.avif" alt="img"
@@ -45,7 +50,7 @@
             </div>
         </div>
     </div>
-
+    
     <div
         class="container-fluid w-full h-fit gap-14 flex flex-col-reverse items-center md:items-start justify-end md:justify-center relative z-10 py-[80px] md:py-[120px]">
         <div class="w-full grid grid-cols-1 md:grid-cols-3 gap-16 md:gap-8 lg:gap-10 p-6">
@@ -62,7 +67,7 @@
                 </p>
             </div>
         </div>
-
+    
         <div class="w-full grid grid-cols-1 md:grid-cols-3 gap-16 md:gap-8 lg:gap-10 p-6">
             <!-- Card 1 -->
             <div class="flex reveal flex-col gap-1">
@@ -77,7 +82,7 @@
                     distribution across multiple channels.
                 </p>
             </div>
-
+    
             <!-- Card 2 -->
             <div class="flex reveal flex-col gap-1">
                 <h4 class="text-xs md:text-sm lg:text-lg xl:text-sm font-bold text-zinc-900 uppercase">
@@ -91,7 +96,7 @@
                     audiences worldwide.
                 </p>
             </div>
-
+    
             <!-- Card 3 -->
             <div class="flex reveal flex-col gap-1">
                 <h4 class="text-xs md:text-sm lg:text-lg xl:text-sm font-bold text-zinc-900 uppercase">
@@ -106,13 +111,13 @@
                 </p>
             </div>
         </div>
-
+    
         <div class="w-full flex flex-col md:flex-row gap-1 md:mb-14 relative items-center md:items-start">
             <div class="w-full md:w-1/2 flex flex-col gap-3 lg:gap-5">
                 <p class="text-zinc-700 reveal text-xs md:text-base lg:text-xl xl:text-lg font-medium uppercase">
                     Distribution & Media Services
                 </p>
-
+    
                 <div class="w-full flex flex-col gap-5 md:gap-3 lg:gap-4 2xl:gap-5">
                     <h4 class="text-zinc-900 reveal text-2xl md:text-4xl lg:text-5xl xl:text-7xl font-bold">
                         Our Services
@@ -120,7 +125,7 @@
                     <div class="w-8 md:w-10 h-[3px] rounded bg-zinc-900"></div>
                 </div>
             </div>
-
+    
             <p class="text-xxs md:text-base reveal lg:text-2xl xl:text-lg font-medium w-full md:w-1/2 text-zinc-700">
                 From theatrical blockbusters to binge-worthy episodics, we offer
                 everything needed to ingest, transcode, QC and package your content
@@ -128,6 +133,17 @@
                 media services.
             </p>
         </div>
+    </div>
+</div>
+
+
+<div class="w-full relative">
+
+    <div
+        class="absolute opacity-40 z-0 w-full inset-0 filter invert"
+        style="background-image: url('/assets/img/pattern/pattern_1.png'); background-size: 150%; background-position: center; background-repeat: no-repeat;"
+
+        >
     </div>
 
     <div
@@ -137,7 +153,7 @@
                 <p class="text-zinc-700 reveal text-xs md:text-base lg:text-xl xl:text-lg font-medium uppercase">
                     API Integration
                 </p>
-
+    
                 <div class="w-full flex flex-col gap-5 md:gap-3 lg:gap-4 2xl:gap-5">
                     <h4 class="text-zinc-900 reveal text-2xl md:text-4xl lg:text-5xl xl:text-7xl font-bold">
                         Ensuring consistent, seamless processes worldwide.
@@ -146,7 +162,7 @@
                 </div>
             </div>
         </div>
-
+    
         <div class="w-full grid grid-cols-1 md:grid-cols-2 md:gap-16 md:gap-8 lg:gap-10 reveal p-6">
             <!-- Card 2 -->
             <div class="flex flex-col gap-1">
@@ -160,7 +176,7 @@
                     streamlined workflow.
                 </p>
             </div>
-
+    
             <!-- Card 3 -->
             <div class="flex flex-col gap-1">
                 <p
@@ -174,22 +190,16 @@
             </div>
         </div>
     </div>
-
+    
     <div
         class="container-fluid w-full h-fit gap-14 flex flex-col-reverse items-center md:items-start justify-end md:justify-center relative z-10 py-[80px] md:py-[120px]">
         
-        <div
-        class="absolute  opacity-30 z-0 w-full inset-0"
-        style="background-image: url('/assets/img/pattern/pattern_5.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;"
-
-        >
-    </div>
         
         <div class="w-full aspect-[3/1] reveal overflow-hidden">
             <img src="/assets/img/page-images/services/services_distribution_3_01.avif" alt="img"
                 class="w-full h-full object-cover" />
         </div>
-
+    
         <div class="w-full flex flex-col md:flex-row gap-1 md:gap-10 xl:gap-16 relative items-center md:items-start">
             <div class="w-full md:w-1/2 flex flex-col gap-3 lg:gap-5">
                 <div class="w-full flex flex-col gap-5 md:gap-3 lg:gap-4 2xl:gap-5">
@@ -199,7 +209,7 @@
                     <div class="w-8 md:w-10 h-[3px] rounded bg-zinc-900"></div>
                 </div>
             </div>
-
+    
             <p
                 class="text-xxs md:text-base reveal xl:px-5 lg:text-2xl xl:text-lg font-medium w-full md:w-1/2 text-zinc-700">
                 Consolidating your services and resources reduces production
@@ -210,6 +220,9 @@
             </p>
         </div>
     </div>
+</div>
+
+
 
 </div>
 
